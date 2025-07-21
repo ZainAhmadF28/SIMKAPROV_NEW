@@ -1,0 +1,132 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.desktop {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.overlap-group-wrapper {
+    background-color: white;
+    width: 100%;
+    max-width: 1440px;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.logo img {
+    width: 249px;
+    height: auto;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user-icon {
+    width: 39px;
+    height: 40px;
+}
+
+/* Login button */
+.login-button {
+    padding: 12px 24px;
+    background-color: #0044cc;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #0033aa;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: italic;
+    color: #0a0341;
+    margin-bottom: 60px;
+}
+
+/* Kontak */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-item img {
+    width: 24px;
+    height: 24px;
+}
+
+.contact-item p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .logo img {
+        width: 180px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .login-button {
+        font-size: 16px;
+        padding: 10px 16px;
+    }
+
+    .contact-info {
+        padding-left: 0;
+    }
+}

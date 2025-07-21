@@ -1,0 +1,10 @@
+<svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Message square" clip-path="url(#clip0_3_271)">
+<path id="Icon" d="M16.625 11.25C16.625 11.6478 16.4582 12.0294 16.1613 12.3107C15.8643 12.592 15.4616 12.75 15.0417 12.75H5.54167L2.375 15.75V3.75C2.375 3.35218 2.54181 2.97064 2.83875 2.68934C3.13568 2.40804 3.53841 2.25 3.95833 2.25H15.0417C15.4616 2.25 15.8643 2.40804 16.1613 2.68934C16.4582 2.97064 16.625 3.35218 16.625 3.75V11.25Z" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_3_271">
+<rect width="19" height="18" fill="white"/>
+</clipPath>
+</defs>
+</svg>
